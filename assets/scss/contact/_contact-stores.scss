@@ -1,0 +1,451 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    min-height: 70px;
+    background-color: transparent;
+    position: fixed !important;
+    z-index: 999;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .iees-container {
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .iees {
+            .iees-logo {
+                display: flex;
+                width: 100%;
+                align-items: center;
+                justify-content: center;
+
+                img {
+                    width: 60.38px;
+                    height: 57.25px;
+                }
+
+                .energy-services {
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    width: 100%;
+
+                    h4 {
+                        font-family: Roboto;
+                        font-size: 30px;
+                        font-weight: 400;
+                        line-height: 45px;
+                        letter-spacing: 0em;
+                        color: #fff;
+                        margin: 0px;
+                    }
+
+                    p {
+                        font-family: Roboto;
+                        font-size: 8px;
+                        font-weight: 400;
+                        line-height: 10px;
+                        letter-spacing: 0em;
+                        color: #fff;
+                        margin-bottom: 0px;
+                    }
+                }
+            }
+
+        }
+
+        .iees-list {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: end;
+            gap: 10px;
+
+            .home-list {
+                font-family: Poppins;
+                font-size: 16px;
+                font-weight: 700;
+                color: #fff;
+                border-bottom: 3px solid rgb(115, 254, 255);
+
+            }
+
+            a {
+                font-family: Poppins;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 32px;
+                color: #fff !important;
+
+            }
+        }
+    }
+}
+
+nav.scrolled {
+    background-color: #050024;
+}
+
+
+
+
+
+#hero-section{
+    background-image: url("../../../assets/imgs/contactbg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .hero-content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .text{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column  ;
+            gap: 30px;
+            h1{
+                font-size: 128px;
+                font-weight: 700;
+                color: #fff;
+                text-align: center;
+            }
+            p{
+                font-size: 48px;
+                color: #fff;
+                font-weight: 400;
+                text-align: center;
+            }
+        }
+    }
+}
+
+
+#contact-section{
+        background-color: #FAFAFA;
+        padding: 40px 0;
+    .contact-content{
+        background-color: #FFF;
+        .contact-img-box{
+            padding: 40px ;
+            background-image: url("../../../assets/imgs/grayscale.png");
+            height: 702px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            gap: 80px;
+            color: #fff;
+
+            .contact-img-title{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                display: flex;
+                flex-direction: column;
+                align-items: start;
+                h2{
+                    font-size: 30px;
+                    font-weight: 600;
+                    padding: 5px;
+                    background: #011C2A80;
+                    border-radius: 16px;
+
+                }
+                p{
+                    display: inline ;
+                    font-size: 20px;
+                    font-weight: 400;
+                    padding: 5px;
+                    background: #011C2A80;
+                    border-radius: 16px;
+                    width: auto;
+                }
+            }
+            .contact-info{
+                display: flex;
+                flex-direction: column;
+                align-items: start  ;
+                gap: 30px;
+                p{
+                    
+                    padding: 5px;
+                    background: #011C2A80;
+                    border-radius: 16px;
+                    font-size: 18px;
+                    display: flex;
+                    gap: 20px;
+                }
+            }
+        }
+        .contact-inputs{
+            
+
+            input{
+                width: 100%;
+                border: 0;
+                border-bottom: 1px solid #8D8D8D;
+                outline: 0  ;
+                padding: 10px 0;
+            }
+            .send-btn{
+                width: 230px;
+                height: 58px;
+                background-color: #050024;
+                color: #fff;
+                border-radius: 10px;
+                border: 0;
+                font-size: 18px;    
+                font-weight: 500;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    min-height: 700px;
+    background-color: rgb(0, 50, 82);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .connect {
+        display: flex;
+        min-height: 300px;
+        justify-content: end;
+        width: 100%;
+        flex-direction: column;
+
+        p {
+            font-family: Poppins;
+            font-size: 27px;
+            font-weight: 400;
+            line-height: 36px;
+            color: #fff;
+            cursor: pointer;
+        }
+
+    }
+
+    .address {
+        min-height: 200px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: end;
+
+        h4 {
+            font-family: Poppins;
+            font-size: 27px;
+            font-weight: 400;
+            line-height: 36px;
+            color: #fff;
+        }
+
+        span {
+            font-family: Poppins;
+            font-size: 13px;
+            font-weight: 400;
+            line-height: 36px;
+            color: #fff;
+        }
+    }
+
+    .social-media {
+        min-height: 97px;
+        display: flex;
+        justify-content: start;
+        align-items: end;
+        flex-direction: column;
+
+        h4 {
+            font-family: Poppins;
+            font-size: 27px;
+            font-weight: 400;
+            line-height: 36px;
+            color: #fff;
+        }
+
+        .social-media-icon {
+            display: flex;
+            gap: 1.3rem;
+
+            i {
+                color: #003252;
+                background-color: #fff;
+                width: 55px;
+                height: 55px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 50%;
+                cursor: pointer;
+                font-size: 25px;
+                transition: 0.5s ease;
+
+                &:hover {
+                    border: 1px solid #003252;
+                }
+            }
+        }
+
+    }
+
+    .ieesLogo {
+        width: 100%;
+        display: flex;
+        align-items: center;
+
+        img {
+            width: 70.38px;
+            height: 70.25px;
+        }
+
+        .energy-logo {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            width: 35%;
+
+            h4 {
+                font-family: Roboto;
+                font-size: 50px;
+                font-weight: 400;
+                line-height: 45px;
+                color: #fff;
+                margin: 0px;
+            }
+
+            p {
+                font-family: Roboto;
+                font-size: 8px;
+                font-weight: 400;
+                line-height: 10px;
+                color: #fff;
+                margin-bottom: 0px;
+            }
+        }
+    }
+
+    .email-adress {
+        min-height: 100px;
+        display: flex;
+        align-items: centeer;
+        justify-content: end;
+        align-items: center;
+
+        .emailInput {
+            background-color: #fff;
+            padding: 10px;
+            border-radius: 10px;
+            width: 45%;
+            height: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            input {
+                border: none;
+                background-color: transparent;
+                width: 80%;
+                outline: 0;
+                font-family: Roboto;
+                font-weight: 500;
+                font-size: 15px;
+
+            }
+
+
+            i.fa-solid {
+                transition: transform 0.3s ease;
+                margin-left: 1px;
+                cursor: pointer;
+            }
+
+            &:hover i.fa-solid {
+                transform: translateX(5px);
+            }
+
+        }
+    }
+
+    .company {
+        min-height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+
+        .line {
+            width: 60%;
+            height: 3px;
+            border-radius: 25px;
+            margin-bottom: 1rem;
+            background-color: #fff;
+        }
+        p{
+            color: #fff;
+            width: 75%;
+            font-size: 18px;
+        }
+        h4{
+            font-weight: 700;
+            color: #fff;
+            font-family: Poppins;
+            font-size: 15px;
+            min-height: 50px;
+            align-items: end;
+            display: flex;
+        }
+    }
+}

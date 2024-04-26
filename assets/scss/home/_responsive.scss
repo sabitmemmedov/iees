@@ -1,0 +1,511 @@
+@media screen and (max-width:1186px) {
+    nav {
+        .iees-container {
+            width: 90%;
+
+            .iees-list {
+                li {
+                    a {
+                        font-size: 11px;
+                    }
+
+                    .home-list {
+                        font-size: 11px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:991px) {
+    #integrated-excellence {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        flex-wrap: wrap;
+        min-height: 500px;
+
+        .oil-platform {
+            width: 100%;
+            flex-wrap: wrap;
+
+            img {
+                display: none;
+            }
+
+            .integrated-excellence-about {
+                width: 95%;
+                padding: 1rem;
+                background-color: transparent;
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:575px) {
+    #integrated-excellence {
+        .oil-platform {
+            .integrated-excellence-about {
+                h3 {
+                    font-size: 22px;
+                }
+
+                .line {
+                    max-width: 480px;
+                }
+
+                h4 {
+                    font-size: 12px;
+                    width: 85%;
+                }
+
+                .learn-more {
+                    min-height: 40px;
+
+                    button {
+                        font-size: 10px;
+                    }
+                }
+
+            }
+        }
+    }
+}
+
+@media screen and (max-width:340px) {
+    #integrated-excellence {
+        .oil-platform {
+            .integrated-excellence-about {
+                h3 {
+                    font-size: 17px;
+                }
+
+                .line {
+                    max-width: 220px;
+                }
+
+                h4 {
+                    font-size: 10px;
+                    width: 85%;
+                }
+
+                .learn-more {
+                    min-height: 40px;
+
+                    button {
+                        font-size: 10px;
+                    }
+                }
+
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width:1399px) {
+    #customer-focus {
+
+        .liquid {
+            height: 420px;
+
+            .about-us {
+                height: 420px;
+                margin: 0;
+                padding: 0;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1199px) {
+    #customer-focus {
+        .customer-focus-about {
+            display: none;
+        }
+
+        .zyro {
+            // background-color: transparent;
+            border-top-left-radius: 45px;
+            border-top-right-radius: 45px;
+            border-bottom-left-radius: 0px;
+            border-bottom-right-radius: 0px;
+            border: none;
+
+            img {
+                width: 300px;
+            }
+        }
+
+        .liquid {
+            border-top-left-radius: 0px;
+            border-top-right-radius: 0px;
+            border-bottom-left-radius: 45px;
+            border-bottom-right-radius: 45px;
+
+            .about-us {
+                border-bottom-left-radius: 45px;
+                border-bottom-right-radius: 45px;
+                padding: 1rem;
+                border: none;
+
+                .global-about {
+                    min-height: 170px;
+
+                    h4 {
+                        font-size: 18px;
+                    }
+
+                    p {
+                        font-size: 12px;
+                        width: 100%;
+                    }
+
+                    .more-button {
+                        button {
+                            top: 760px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width:530px) {
+    #customer-focus {
+        .customer-focus-about {
+            display: none;
+        }
+
+        .zyro {
+            img {
+                width: 100%;
+            }
+        }
+
+        .liquid {
+            border-top-left-radius: 0px;
+            border-top-right-radius: 0px;
+            border-bottom-left-radius: 45px;
+            border-bottom-right-radius: 45px;
+
+            .about-us {
+                border-bottom-left-radius: 45px;
+                border-bottom-right-radius: 45px;
+                padding: 1rem;
+
+                h3 {
+                    font-size: 25px;
+                }
+
+                .global-about {
+                    min-height: 160px;
+
+                    h4 {
+                        font-size: 12px;
+                    }
+
+                    p {
+                        font-size: 9px;
+                        width: 100%;
+                    }
+
+                    .more-button {
+                        button {
+                            top: 765px;
+                            width: 60px;
+                            border-radius: 10px;
+                            font-size: 8px;
+                            height: 30px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:515px) {
+    #consulting-service {
+        .consulting-service-about {
+            .consulting-service-txt {
+                h3 {
+                    font-size: 15px;
+                }
+
+                .line {
+                    width: 20px;
+                }
+            }
+
+            button {
+                width: 100px;
+                font-size: 10px;
+            }
+        }
+
+        .lorem-about {
+            p {
+                width: 100%;
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width:350px) {
+    #consulting-service {
+        .consulting-service-about {
+            .consulting-service-txt {
+                min-height: 150px;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+
+                h3 {
+                    font-size: 12px;
+                }
+
+                .line {
+                    width: 20px;
+                }
+            }
+
+            button {
+                width: 80px;
+                font-size: 9px;
+            }
+        }
+
+        .lorem-about {
+            p {
+                width: 100%;
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width:1199px) {
+    #energy-services {
+        .energy-services-about {
+            background-color: #fff;
+            width: 100%;
+
+            .container {
+                background-color: rgb(0, 35, 23);
+                width: 80%;
+            }
+        }
+
+        .human {
+            .planet-container {
+                display: none;
+            }
+
+            .human-hands {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                max-height: 500px;
+
+                img {
+                    width: 80%;
+                    max-height: 450px;
+                }
+            }
+        }
+
+    }
+}
+
+@media screen and (max-width:767px) {
+    #energy-services {
+        .energy-services-about {
+            background-color: #fff;
+            width: 100%;
+
+            .container {
+                background-color: rgb(0, 35, 23);
+                width: 100%;
+            }
+        }
+
+        .human {
+            .planet-container {
+                display: none;
+            }
+
+            .human-hands {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                max-height: 500px;
+
+                img {
+                    width: 100%;
+                    max-height: 300px;
+                }
+            }
+        }
+
+    }
+}
+
+@media screen and (max-width:585px) {
+    #energy-services {
+        .energy-services-about {
+            .energy-image {
+                max-height: 300px;
+
+                img {
+                    height: 270px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:450px) {
+    #energy-services {
+        .energy-services-about {
+            .energy-image {
+                max-height: 200px;
+
+                img {
+                    height: 200px;
+                    width: 270px;
+                }
+            }
+        }
+        .human{
+            .human-hands{
+                img{
+                    height: 230px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:991px) {
+    #blog-container {
+        .amazon-about {
+            img {
+                width: 80%;
+            }
+
+            .amazon-txt {
+                p {
+                    min-height: 130px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:450px) {
+    #blog-container {
+        .amazon-about {
+            img {
+                width: 80%;
+                height: 180px;
+            }
+
+            .amazon-txt {
+                h3 {
+                    font-size: 19px;
+                }
+
+                span {
+                    font-size: 12px;
+                }
+
+                p {
+                    font-size: 12px;
+                }
+
+                button {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:991px) {
+    footer{
+        .ieesLogo{
+            margin-top: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .email-adress{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .connect{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .address{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .social-media{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}
+@media screen and (max-width:500px) {
+    footer{
+        .connect{
+            p{
+                font-size: 17px;
+            }
+        }
+        .address{
+            h4{
+                font-size: 17px;
+            }
+        }
+        .social-media{
+            h4{
+                font-size: 17px;
+            }
+            .social-media-icon{
+                i{
+                    font-size: 18px;
+                    width: 35px;
+                    height: 35px;
+                }
+            }
+  
+        }
+        .company{
+            p{
+                font-size: 15px;
+            }
+        }
+    }
+}

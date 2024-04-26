@@ -1,0 +1,1075 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  min-height: 70px;
+  background-color: transparent;
+  position: fixed !important;
+  z-index: 999;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav .iees-container {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav .iees-container .iees .iees-logo {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+nav .iees-container .iees .iees-logo img {
+  width: 60.38px;
+  height: 57.25px;
+}
+nav .iees-container .iees .iees-logo .energy-services {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+nav .iees-container .iees .iees-logo .energy-services h4 {
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 45px;
+  letter-spacing: 0em;
+  color: #fff;
+  margin: 0px;
+}
+nav .iees-container .iees .iees-logo .energy-services p {
+  font-family: Roboto;
+  font-size: 8px;
+  font-weight: 400;
+  line-height: 10px;
+  letter-spacing: 0em;
+  color: #fff;
+  margin-bottom: 0px;
+}
+nav .iees-container .iees-list {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 10px;
+}
+nav .iees-container .iees-list .home-list {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  border-bottom: 3px solid rgb(115, 254, 255);
+}
+nav .iees-container .iees-list a {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #fff !important;
+}
+
+nav.scrolled {
+  background-color: #050024;
+}
+
+#integrated-excellence {
+  background-image: url("https://s3-alpha-sig.figma.com/img/0632/632d/098eef5605e503e7b39179965b6aa01b?Expires=1714953600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=PNzVdbgWhZc5g6sZ2efWJ4nQ7hgZ6Ls1qn-h3Cwlb27BP5kw2u9T6Y3IS5U-ZUsK2MrVXWEGNc~hq8ttBsN~fP2cGBNsbVA5iPmvhk7E~hYBXPF0AQv-zvIJ6OZwBuGTKTVf9-gfspXPilR0PDcbBizDIKniIWy1oQOLJNOin6-PhCpUH4OlNbYca~k~3S6LsikSq1tVEZ-myfWPRKILKuWqG~wxKHvqlr-OtOGQei-bjjGFDyRqrqLGX5iV9I2Z0aA6RDWFp2iCyZ1NCxwl-3rTdvtncpgzrUz4Cp7fHf-kHTNwKb-mhvkkFTWEcG4NdtLY2OcUcB~rCPvaEi8DyA__");
+  width: 100%;
+  min-height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  background-size: cover;
+  background-color: #050024;
+  z-index: 999;
+  transform: rotate(180deg);
+}
+#integrated-excellence .oil-platform {
+  width: 100%;
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+#integrated-excellence .oil-platform img {
+  width: 72%;
+  border-radius: 10px;
+  transform: rotate(180deg);
+  border: 1px solid #fff;
+  opacity: 75%;
+}
+#integrated-excellence .oil-platform .integrated-excellence-about {
+  z-index: 1;
+  gap: 4px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  transform: rotate(180deg);
+  width: 40%;
+  right: 20px;
+}
+#integrated-excellence .oil-platform .integrated-excellence-about h3 {
+  font-family: Tahoma;
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 47px;
+  color: #fff;
+}
+#integrated-excellence .oil-platform .integrated-excellence-about .line {
+  background-color: #fff;
+  width: 100%;
+  height: 3.5px;
+  border-radius: 25px;
+}
+#integrated-excellence .oil-platform .integrated-excellence-about h4 {
+  font-family: Tahoma;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #fff;
+}
+#integrated-excellence .oil-platform .integrated-excellence-about .learn-more {
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+#integrated-excellence .oil-platform .integrated-excellence-about .learn-more button {
+  width: 85px;
+  border: none;
+  border-radius: 10px;
+  font-family: Tahoma;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  padding: 3px 2px 3px 2px;
+  color: black;
+}
+
+#customer-focus {
+  background-color: rgb(5, 0, 36);
+  min-height: 750px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#customer-focus .customer-focus-about {
+  width: 55%;
+  position: absolute;
+  top: -52px;
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+}
+#customer-focus .customer-focus-about h3 {
+  font-family: Tahoma;
+  font-size: 31px;
+  font-weight: 400;
+  line-height: 34px;
+  color: #fff;
+  width: 100%;
+}
+#customer-focus .customer-focus-about h4 {
+  font-family: Tahoma;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  width: 80%;
+  color: #fff;
+}
+#customer-focus .zyro {
+  background-color: #fff;
+  border-radius: 45px 0 0 45px;
+  border-left: 2px solid #000;
+  display: flex;
+  min-height: 420px !important;
+  align-items: center;
+  justify-content: center;
+}
+#customer-focus .zyro img {
+  width: 70%;
+}
+#customer-focus .liquid {
+  background-image: url(/assets/imgs/liquid.png);
+  width: 100%;
+  max-height: 420px;
+  background-position: center;
+  background-size: cover;
+  background-color: #fff;
+  border-top-right-radius: 45px;
+  border-bottom-right-radius: 45px;
+}
+#customer-focus .liquid .about-us {
+  background-color: rgba(255, 255, 255, 0.6470588235);
+  height: 420px;
+  display: flex;
+  border-right: 2px solid rgba(0, 0, 0, 0.8666666667);
+  flex-direction: column;
+  justify-content: center;
+  border-top-right-radius: 45px;
+  border-bottom-right-radius: 45px;
+}
+#customer-focus .liquid .about-us h3 {
+  font-family: Tahoma;
+  font-size: 38px;
+  font-weight: 400;
+  color: #000;
+}
+#customer-focus .liquid .about-us .line {
+  height: 4px;
+  width: 43px;
+  border-radius: 45px;
+  background-color: #000;
+}
+#customer-focus .liquid .about-us .global-about {
+  min-height: 250px;
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+}
+#customer-focus .liquid .about-us .global-about h4 {
+  font-family: Tahoma;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 34px;
+  width: 80%;
+  color: #000;
+}
+#customer-focus .liquid .about-us .global-about p {
+  font-family: Tahoma;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 23px;
+  color: #000;
+  width: 55%;
+}
+#customer-focus .liquid .about-us .global-about .more-button {
+  display: flex;
+  width: 87%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+#customer-focus .liquid .about-us .global-about .more-button button {
+  border: none;
+  border-radius: 121px;
+  border: 2px solid #000;
+  color: #000;
+  padding: 7px;
+  width: 120px;
+  background-color: #fff;
+  font-family: Archivo;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  position: absolute;
+  top: 480px;
+}
+#customer-focus .liquid .about-us .global-about .more-button button i.fa-solid {
+  transition: transform 0.3s ease;
+  margin-left: 5px;
+}
+#customer-focus .liquid .about-us .global-about .more-button button:hover i.fa-solid {
+  transform: translateX(5px);
+}
+
+#consulting-service {
+  background-color: #050024;
+  min-height: 650px;
+  width: 100%;
+}
+#consulting-service .consulting-service-about {
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#consulting-service .consulting-service-about .consulting-service-txt {
+  display: flex;
+  flex-direction: column;
+}
+#consulting-service .consulting-service-about .consulting-service-txt h3 {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+}
+#consulting-service .consulting-service-about .consulting-service-txt .line {
+  width: 32px;
+  height: 4px;
+  background-color: #fff;
+  border-radius: 25px;
+}
+#consulting-service .consulting-service-about button {
+  border-radius: 121px;
+  background-color: transparent;
+  border: 2px solid #fff;
+  padding: 5px;
+  width: 120px;
+  height: 37px;
+  color: #fff;
+  font-family: Archivo;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+}
+#consulting-service .lorem-about {
+  background-color: rgb(0, 50, 82);
+  width: 100%;
+  border: 1px solid #fff;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#consulting-service .lorem-about img {
+  width: 100%;
+}
+#consulting-service .lorem-about .vector {
+  width: 60px;
+  padding: 1rem;
+}
+#consulting-service .lorem-about h3 {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #fff;
+  padding-left: 1rem;
+}
+#consulting-service .lorem-about p {
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 21px;
+  width: 75%;
+  color: #fff;
+  padding-left: 1rem;
+}
+#consulting-service .lorem-about .lorem-button {
+  padding: 1rem;
+}
+#consulting-service .lorem-about .lorem-button button {
+  border: none;
+  background-color: transparent;
+  border-radius: 87px;
+  border: 1px solid #fff;
+  color: #fff;
+  font-family: Archivo;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 14px;
+  width: 80px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+#consulting-service .lorem-about .lorem-button button i.fa-solid {
+  transition: transform 0.3s ease;
+  margin-left: 5px;
+}
+#consulting-service .lorem-about .lorem-button button:hover i.fa-solid {
+  transform: translateX(5px);
+}
+
+#energy-services {
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#energy-services .energy-services-about {
+  background-color: rgb(0, 35, 23);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#energy-services .energy-services-about .energy-services-txt {
+  padding: 1rem;
+}
+#energy-services .energy-services-about .energy-services-txt h3 {
+  font-family: Tahoma;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  color: #fff;
+}
+#energy-services .energy-services-about .energy-services-txt .lorem {
+  min-height: 100px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17px;
+  color: #fff;
+}
+#energy-services .energy-services-about .energy-services-txt p {
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17px;
+  color: #fff;
+}
+#energy-services .energy-services-about .energy-image {
+  height: 100%;
+  height: 284px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+#energy-services .energy-services-about .energy-image img {
+  width: 100%;
+}
+#energy-services .human {
+  position: relative;
+  height: 284px;
+}
+#energy-services .human .human-hands {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#energy-services .human .human-hands img {
+  height: 100%;
+  border-radius: 10px;
+  z-index: 1;
+  position: relative;
+}
+#energy-services .human .play-video {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 45%;
+  right: 45%;
+}
+#energy-services .human .play-video i {
+  font-size: 18px;
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #006263;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 997;
+  cursor: pointer;
+}
+#energy-services .human .planet-container {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  justify-content: flex-end;
+  width: 300px;
+  height: 250px;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: -109px;
+  right: 20px;
+  background-color: #fff;
+  opacity: 30%;
+  background-image: url(/assets/imgs/planet.png);
+}
+
+#blog-container {
+  min-height: 750px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #050024;
+}
+#blog-container h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 45px;
+}
+#blog-container .amazon-about {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 10px;
+}
+#blog-container .amazon-about img {
+  width: 350px;
+  height: 260px;
+  border-radius: 10px;
+}
+#blog-container .amazon-about .amazon-txt {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 80%;
+}
+#blog-container .amazon-about .amazon-txt h3 {
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 600;
+  color: #000;
+}
+#blog-container .amazon-about .amazon-txt span {
+  font-family: Roboto;
+  font-size: 21px;
+  font-weight: 300;
+  color: #3B3838;
+}
+#blog-container .amazon-about .amazon-txt p {
+  font-family: Roboto;
+  font-size: 16px;
+  width: 91%;
+  min-height: 150px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  font-weight: 500;
+  line-height: 25px;
+  color: #000;
+}
+#blog-container .amazon-about .amazon-txt button {
+  border: none;
+  background-color: transparent;
+  color: #002317;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 23px;
+}
+
+footer {
+  min-height: 700px;
+  background-color: rgb(0, 50, 82);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .connect {
+  display: flex;
+  min-height: 300px;
+  justify-content: end;
+  width: 100%;
+  flex-direction: column;
+}
+footer .connect p {
+  font-family: Poppins;
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 36px;
+  color: #fff;
+  cursor: pointer;
+}
+footer .address {
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: end;
+}
+footer .address h4 {
+  font-family: Poppins;
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 36px;
+  color: #fff;
+}
+footer .address span {
+  font-family: Poppins;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 36px;
+  color: #fff;
+}
+footer .social-media {
+  min-height: 97px;
+  display: flex;
+  justify-content: start;
+  align-items: end;
+  flex-direction: column;
+}
+footer .social-media h4 {
+  font-family: Poppins;
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 36px;
+  color: #fff;
+}
+footer .social-media .social-media-icon {
+  display: flex;
+  gap: 1.3rem;
+}
+footer .social-media .social-media-icon i {
+  color: #003252;
+  background-color: #fff;
+  width: 55px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 25px;
+  transition: 0.5s ease;
+}
+footer .social-media .social-media-icon i:hover {
+  border: 1px solid #003252;
+}
+footer .ieesLogo {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+footer .ieesLogo img {
+  width: 70.38px;
+  height: 70.25px;
+}
+footer .ieesLogo .energy-logo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 35%;
+}
+footer .ieesLogo .energy-logo h4 {
+  font-family: Roboto;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 45px;
+  color: #fff;
+  margin: 0px;
+}
+footer .ieesLogo .energy-logo p {
+  font-family: Roboto;
+  font-size: 8px;
+  font-weight: 400;
+  line-height: 10px;
+  color: #fff;
+  margin-bottom: 0px;
+}
+footer .email-adress {
+  min-height: 100px;
+  display: flex;
+  align-items: centeer;
+  justify-content: end;
+  align-items: center;
+}
+footer .email-adress .emailInput {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  width: 45%;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer .email-adress .emailInput input {
+  border: none;
+  background-color: transparent;
+  width: 80%;
+  outline: 0;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 15px;
+}
+footer .email-adress .emailInput i.fa-solid {
+  transition: transform 0.3s ease;
+  margin-left: 1px;
+  cursor: pointer;
+}
+footer .email-adress .emailInput:hover i.fa-solid {
+  transform: translateX(5px);
+}
+footer .company {
+  min-height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+footer .company .line {
+  width: 60%;
+  height: 3px;
+  border-radius: 25px;
+  margin-bottom: 1rem;
+  background-color: #fff;
+}
+footer .company p {
+  color: #fff;
+  width: 75%;
+  font-size: 18px;
+}
+footer .company h4 {
+  font-weight: 700;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 15px;
+  min-height: 50px;
+  align-items: end;
+  display: flex;
+}
+
+@media screen and (max-width: 1186px) {
+  nav .iees-container {
+    width: 90%;
+  }
+  nav .iees-container .iees-list li a {
+    font-size: 11px;
+  }
+  nav .iees-container .iees-list li .home-list {
+    font-size: 11px;
+  }
+}
+@media screen and (max-width: 991px) {
+  #integrated-excellence {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    min-height: 500px;
+  }
+  #integrated-excellence .oil-platform {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  #integrated-excellence .oil-platform img {
+    display: none;
+  }
+  #integrated-excellence .oil-platform .integrated-excellence-about {
+    width: 95%;
+    padding: 1rem;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 575px) {
+  #integrated-excellence .oil-platform .integrated-excellence-about h3 {
+    font-size: 22px;
+  }
+  #integrated-excellence .oil-platform .integrated-excellence-about .line {
+    max-width: 480px;
+  }
+  #integrated-excellence .oil-platform .integrated-excellence-about h4 {
+    font-size: 12px;
+    width: 85%;
+  }
+  #integrated-excellence .oil-platform .integrated-excellence-about .learn-more {
+    min-height: 40px;
+  }
+  #integrated-excellence .oil-platform .integrated-excellence-about .learn-more button {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 340px) {
+  #integrated-excellence .oil-platform .integrated-excellence-about h3 {
+    font-size: 17px;
+  }
+  #integrated-excellence .oil-platform .integrated-excellence-about .line {
+    max-width: 220px;
+  }
+  #integrated-excellence .oil-platform .integrated-excellence-about h4 {
+    font-size: 10px;
+    width: 85%;
+  }
+  #integrated-excellence .oil-platform .integrated-excellence-about .learn-more {
+    min-height: 40px;
+  }
+  #integrated-excellence .oil-platform .integrated-excellence-about .learn-more button {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 1399px) {
+  #customer-focus .liquid {
+    height: 420px;
+  }
+  #customer-focus .liquid .about-us {
+    height: 420px;
+    margin: 0;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 1199px) {
+  #customer-focus .customer-focus-about {
+    display: none;
+  }
+  #customer-focus .zyro {
+    border-top-left-radius: 45px;
+    border-top-right-radius: 45px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border: none;
+  }
+  #customer-focus .zyro img {
+    width: 300px;
+  }
+  #customer-focus .liquid {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+  }
+  #customer-focus .liquid .about-us {
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    padding: 1rem;
+    border: none;
+  }
+  #customer-focus .liquid .about-us .global-about {
+    min-height: 170px;
+  }
+  #customer-focus .liquid .about-us .global-about h4 {
+    font-size: 18px;
+  }
+  #customer-focus .liquid .about-us .global-about p {
+    font-size: 12px;
+    width: 100%;
+  }
+  #customer-focus .liquid .about-us .global-about .more-button button {
+    top: 760px;
+  }
+}
+@media screen and (max-width: 530px) {
+  #customer-focus .customer-focus-about {
+    display: none;
+  }
+  #customer-focus .zyro img {
+    width: 100%;
+  }
+  #customer-focus .liquid {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+  }
+  #customer-focus .liquid .about-us {
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    padding: 1rem;
+  }
+  #customer-focus .liquid .about-us h3 {
+    font-size: 25px;
+  }
+  #customer-focus .liquid .about-us .global-about {
+    min-height: 160px;
+  }
+  #customer-focus .liquid .about-us .global-about h4 {
+    font-size: 12px;
+  }
+  #customer-focus .liquid .about-us .global-about p {
+    font-size: 9px;
+    width: 100%;
+  }
+  #customer-focus .liquid .about-us .global-about .more-button button {
+    top: 765px;
+    width: 60px;
+    border-radius: 10px;
+    font-size: 8px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 515px) {
+  #consulting-service .consulting-service-about .consulting-service-txt h3 {
+    font-size: 15px;
+  }
+  #consulting-service .consulting-service-about .consulting-service-txt .line {
+    width: 20px;
+  }
+  #consulting-service .consulting-service-about button {
+    width: 100px;
+    font-size: 10px;
+  }
+  #consulting-service .lorem-about p {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 350px) {
+  #consulting-service .consulting-service-about .consulting-service-txt {
+    min-height: 150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  #consulting-service .consulting-service-about .consulting-service-txt h3 {
+    font-size: 12px;
+  }
+  #consulting-service .consulting-service-about .consulting-service-txt .line {
+    width: 20px;
+  }
+  #consulting-service .consulting-service-about button {
+    width: 80px;
+    font-size: 9px;
+  }
+  #consulting-service .lorem-about p {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1199px) {
+  #energy-services .energy-services-about {
+    background-color: #fff;
+    width: 100%;
+  }
+  #energy-services .energy-services-about .container {
+    background-color: rgb(0, 35, 23);
+    width: 80%;
+  }
+  #energy-services .human .planet-container {
+    display: none;
+  }
+  #energy-services .human .human-hands {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 500px;
+  }
+  #energy-services .human .human-hands img {
+    width: 80%;
+    max-height: 450px;
+  }
+}
+@media screen and (max-width: 767px) {
+  #energy-services .energy-services-about {
+    background-color: #fff;
+    width: 100%;
+  }
+  #energy-services .energy-services-about .container {
+    background-color: rgb(0, 35, 23);
+    width: 100%;
+  }
+  #energy-services .human .planet-container {
+    display: none;
+  }
+  #energy-services .human .human-hands {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 500px;
+  }
+  #energy-services .human .human-hands img {
+    width: 100%;
+    max-height: 300px;
+  }
+}
+@media screen and (max-width: 585px) {
+  #energy-services .energy-services-about .energy-image {
+    max-height: 300px;
+  }
+  #energy-services .energy-services-about .energy-image img {
+    height: 270px;
+  }
+}
+@media screen and (max-width: 450px) {
+  #energy-services .energy-services-about .energy-image {
+    max-height: 200px;
+  }
+  #energy-services .energy-services-about .energy-image img {
+    height: 200px;
+    width: 270px;
+  }
+  #energy-services .human .human-hands img {
+    height: 230px;
+  }
+}
+@media screen and (max-width: 991px) {
+  #blog-container .amazon-about img {
+    width: 80%;
+  }
+  #blog-container .amazon-about .amazon-txt p {
+    min-height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 450px) {
+  #blog-container .amazon-about img {
+    width: 80%;
+    height: 180px;
+  }
+  #blog-container .amazon-about .amazon-txt h3 {
+    font-size: 19px;
+  }
+  #blog-container .amazon-about .amazon-txt span {
+    font-size: 12px;
+  }
+  #blog-container .amazon-about .amazon-txt p {
+    font-size: 12px;
+  }
+  #blog-container .amazon-about .amazon-txt button {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 991px) {
+  footer .ieesLogo {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  footer .email-adress {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  footer .connect {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  footer .address {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  footer .social-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 500px) {
+  footer .connect p {
+    font-size: 17px;
+  }
+  footer .address h4 {
+    font-size: 17px;
+  }
+  footer .social-media h4 {
+    font-size: 17px;
+  }
+  footer .social-media .social-media-icon i {
+    font-size: 18px;
+    width: 35px;
+    height: 35px;
+  }
+  footer .company p {
+    font-size: 15px;
+  }
+}

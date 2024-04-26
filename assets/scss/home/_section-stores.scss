@@ -1,0 +1,854 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    min-height: 70px;
+    background-color: transparent;
+    position: fixed !important;
+    z-index: 999;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .iees-container {
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .iees {
+            .iees-logo {
+                display: flex;
+                width: 100%;
+                align-items: center;
+                justify-content: center;
+
+                img {
+                    width: 60.38px;
+                    height: 57.25px;
+                }
+
+                .energy-services {
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    width: 100%;
+
+                    h4 {
+                        font-family: Roboto;
+                        font-size: 30px;
+                        font-weight: 400;
+                        line-height: 45px;
+                        letter-spacing: 0em;
+                        color: #fff;
+                        margin: 0px;
+                    }
+
+                    p {
+                        font-family: Roboto;
+                        font-size: 8px;
+                        font-weight: 400;
+                        line-height: 10px;
+                        letter-spacing: 0em;
+                        color: #fff;
+                        margin-bottom: 0px;
+                    }
+                }
+            }
+
+        }
+
+        .iees-list {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: end;
+            gap: 10px;
+
+            .home-list {
+                font-family: Poppins;
+                font-size: 16px;
+                font-weight: 700;
+                color: #fff;
+                border-bottom: 3px solid rgb(115, 254, 255);
+
+            }
+
+            a {
+                font-family: Poppins;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 32px;
+                color: #fff !important;
+
+            }
+        }
+    }
+}
+
+nav.scrolled {
+    background-color: #050024;
+}
+
+#integrated-excellence {
+    background-image: url("https://s3-alpha-sig.figma.com/img/0632/632d/098eef5605e503e7b39179965b6aa01b?Expires=1714953600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=PNzVdbgWhZc5g6sZ2efWJ4nQ7hgZ6Ls1qn-h3Cwlb27BP5kw2u9T6Y3IS5U-ZUsK2MrVXWEGNc~hq8ttBsN~fP2cGBNsbVA5iPmvhk7E~hYBXPF0AQv-zvIJ6OZwBuGTKTVf9-gfspXPilR0PDcbBizDIKniIWy1oQOLJNOin6-PhCpUH4OlNbYca~k~3S6LsikSq1tVEZ-myfWPRKILKuWqG~wxKHvqlr-OtOGQei-bjjGFDyRqrqLGX5iV9I2Z0aA6RDWFp2iCyZ1NCxwl-3rTdvtncpgzrUz4Cp7fHf-kHTNwKb-mhvkkFTWEcG4NdtLY2OcUcB~rCPvaEi8DyA__");
+    width: 100%;
+    min-height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    background-color: #050024;
+    z-index: 999;
+    transform: rotate(180deg);  
+
+    .oil-platform {
+        width: 100%;
+        min-height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+
+        img {
+            width: 72%;
+            border-radius: 10px;
+            transform: rotate(180deg);
+            border: 1px solid #fff;
+            opacity: 75%;
+
+        }
+
+        .integrated-excellence-about {
+            z-index: 1;
+            gap: 4px;
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            transform: rotate(180deg);
+            width: 40%;
+            right: 20px;
+
+            h3 {
+                font-family: Tahoma;
+                font-size: 34px;
+                font-weight: 600;
+                line-height: 47px;
+                color: #fff;
+            }
+
+            .line {
+                background-color: #fff;
+                width: 100%;
+                height: 3.5px;
+                border-radius: 25px;
+
+
+            }
+
+            h4 {
+                font-family: Tahoma;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 20px;
+                color: #fff;
+
+            }
+
+            .learn-more {
+                min-height: 100px;
+                display: flex;
+                align-items: center;
+                justify-content: start;
+
+                button {
+                    width: 85px;
+                    border: none;
+                    border-radius: 10px;
+                    font-family: Tahoma;
+                    font-size: 14px;
+                    font-weight: 500;
+                    line-height: 21px;
+                    padding: 3px 2px 3px 2px;
+                    color: black;
+                }
+            }
+        }
+    }
+
+}
+
+
+#customer-focus {
+    background-color: rgb(5, 0, 36);
+    min-height: 750px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .customer-focus-about {
+        width: 55%;
+        position: absolute;
+        top: -52px;
+        display: flex;
+        justify-content: end;
+        flex-direction: column;
+
+        h3 {
+            font-family: Tahoma;
+            font-size: 31px;
+            font-weight: 400;
+            line-height: 34px;
+            color: #fff;
+            width: 100%;
+
+        }
+
+        h4 {
+            font-family: Tahoma;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 21px;
+            width: 80%;
+            color: #fff;
+        }
+    }
+
+    .zyro {
+        background-color: #fff;
+        border-radius: 45px 0 0 45px;
+        border-left: 2px solid #000;
+        display: flex;
+        min-height: 420px !important;
+        align-items: center;
+        justify-content: center;
+
+        img {
+            width: 70%;
+        }
+    }
+
+    .liquid {
+        background-image: url(/assets/imgs/liquid.png);
+        width: 100%;
+        max-height: 420px;
+        background-position: center;
+        background-size: cover;
+        background-color: #fff;
+        border-top-right-radius: 45px;
+        border-bottom-right-radius: 45px;
+
+        .about-us {
+            background-color: #ffffffa5;
+            height: 420px;
+            display: flex;
+            border-right: 2px solid #000d;
+
+            flex-direction: column;
+            justify-content: center;
+            border-top-right-radius: 45px;
+            border-bottom-right-radius: 45px;
+
+            h3 {
+                font-family: Tahoma;
+                font-size: 38px;
+                font-weight: 400;
+                color: #000;
+            }
+
+            .line {
+                height: 4px;
+                width: 43px;
+                border-radius: 45px;
+                background-color: #000;
+            }
+
+            .global-about {
+                min-height: 250px;
+                display: flex;
+                justify-content: end;
+                flex-direction: column;
+
+                h4 {
+                    font-family: Tahoma;
+                    font-size: 30px;
+                    font-weight: 400;
+                    line-height: 34px;
+                    width: 80%;
+                    color: #000;
+                }
+
+                p {
+                    font-family: Tahoma;
+                    font-size: 17px;
+                    font-weight: 400;
+                    line-height: 23px;
+                    color: #000;
+                    width: 55%;
+                }
+
+                .more-button {
+                    display: flex;
+                    width: 87%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: end;
+
+                    button {
+                        border: none;
+                        border-radius: 121px;
+                        border: 2px solid #000;
+                        color: #000;
+                        padding: 7px;
+                        width: 120px;
+                        background-color: #fff;
+                        font-family: Archivo;
+                        font-size: 14px;
+                        font-weight: 700;
+                        line-height: 20px;
+                        position: absolute;
+                        top: 480px;
+
+                        i.fa-solid {
+                            transition: transform 0.3s ease;
+                            margin-left: 5px;
+                        }
+
+                        &:hover i.fa-solid {
+                            transform: translateX(5px);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+#consulting-service {
+    background-color: #050024;
+    min-height: 650px;
+    width: 100%;
+
+    .consulting-service-about {
+        min-height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .consulting-service-txt {
+            display: flex;
+            flex-direction: column;
+
+            h3 {
+                font-family: Roboto;
+                font-size: 24px;
+                font-weight: 600;
+                color: #fff
+            }
+
+            .line {
+                width: 32px;
+                height: 4px;
+                background-color: #fff;
+                border-radius: 25px;
+            }
+        }
+
+        button {
+            border-radius: 121px;
+            background-color: transparent;
+            border: 2px solid #fff;
+            padding: 5px;
+            width: 120px;
+            height: 37px;
+            color: #fff;
+            font-family: Archivo;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 20px;
+
+        }
+    }
+
+    .lorem-about {
+        background-color: rgb(0, 50, 82);
+        width: 100%;
+        border: 1px solid #fff;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+        img {
+            width: 100%;
+        }
+
+        .vector {
+            width: 60px;
+            padding: 1rem;
+        }
+
+        h3 {
+            font-family: Roboto;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 32px;
+            color: #fff;
+            padding-left: 1rem;
+
+        }
+
+        p {
+            font-family: Roboto;
+            font-size: 13px;
+            font-weight: 400;
+            line-height: 21px;
+            width: 75%;
+            color: #fff;
+            padding-left: 1rem;
+        }
+
+        .lorem-button {
+            padding: 1rem;
+
+            button {
+                border: none;
+                background-color: transparent;
+                border-radius: 87px;
+                border: 1px solid #fff;
+                color: #fff;
+                font-family: Archivo;
+                font-size: 13px;
+                font-weight: 500;
+                line-height: 14px;
+                width: 80px;
+                padding-top: 7px;
+                padding-bottom: 7px;
+
+                i.fa-solid {
+                    transition: transform 0.3s ease;
+                    margin-left: 5px;
+                }
+
+                &:hover i.fa-solid {
+                    transform: translateX(5px);
+                }
+
+            }
+        }
+    }
+}
+
+
+#energy-services {
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .energy-services-about {
+        background-color: rgb(0, 35, 23);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        // margin: 1rem;
+
+
+        .energy-services-txt {
+            padding: 1rem;
+
+            h3 {
+                font-family: Tahoma;
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 26px;
+                color: #fff;
+
+            }
+
+            .lorem {
+                min-height: 100px;
+                display: flex;
+                align-items: end;
+                justify-content: center;
+                font-family: Roboto;
+                font-size: 13px;
+                font-weight: 400;
+                line-height: 17px;
+                color: #fff;
+            }
+
+            p {
+                font-family: Roboto;
+                font-size: 13px;
+                font-weight: 400;
+                line-height: 17px;
+                color: #fff;
+
+            }
+        }
+
+        .energy-image {
+            height: 100%;
+            height: 284px;
+            display: flex;
+            align-items: end;
+            justify-content: center;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    .human {
+        position: relative;
+        height: 284px;
+
+        .human-hands {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            img {
+                height: 100%;
+                border-radius: 10px;
+                z-index: 1;
+                position: relative;
+            }
+        }
+
+        .play-video {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            top: 45%;
+            right: 45%;
+
+            i {
+                font-size: 18px;
+                color: #fff;
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                background-color: #006263;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                z-index: 997;
+                cursor: pointer;
+            }
+        }
+
+        .planet-container {
+            display: flex;
+            position: relative;
+            align-items: flex-start;
+            justify-content: flex-end;
+            width: 300px;
+            height: 250px;
+            background-position: center;
+            background-size: cover;
+            position: absolute;
+            top: -109px;
+            right: 20px;
+            background-color: #fff;
+            opacity: 30%;
+            background-image: url(/assets/imgs/planet.png);
+
+        }
+    }
+
+}
+
+#blog-container {
+    min-height: 750px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #050024;
+
+    h3 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-family: Poppins;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 45px;
+    }
+
+    .amazon-about {
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        // padding-top: 10px;
+        // padding-bottom: 10px;
+        padding: 10px;
+        border-radius: 10px;
+
+        img {
+            width: 350px;
+            height: 260px;
+            border-radius: 10px;
+        }
+
+        .amazon-txt {
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            width: 80%;
+
+            h3 {
+                font-family: Roboto;
+                font-size: 30px;
+                font-weight: 600;
+                color: #000;
+            }
+
+            span {
+                font-family: Roboto;
+                font-size: 21px;
+                font-weight: 300;
+                color: #3B3838;
+            }
+
+            p {
+                font-family: Roboto;
+                font-size: 16px;
+                width: 91%;
+                min-height: 150px;
+                display: flex;
+                align-items: end;
+                justify-content: center;
+                font-weight: 500;
+                line-height: 25px;
+                color: #000;
+
+            }
+
+            button {
+                border: none;
+                background-color: transparent;
+                color: #002317;
+                font-family: Roboto;
+                font-size: 15px;
+                font-weight: 600;
+                line-height: 23px;
+
+
+            }
+        }
+    }
+}
+
+footer {
+    min-height: 700px;
+    background-color: rgb(0, 50, 82);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .connect {
+        display: flex;
+        min-height: 300px;
+        justify-content: end;
+        width: 100%;
+        flex-direction: column;
+
+        p {
+            font-family: Poppins;
+            font-size: 27px;
+            font-weight: 400;
+            line-height: 36px;
+            color: #fff;
+            cursor: pointer;
+        }
+
+    }
+
+    .address {
+        min-height: 200px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: end;
+
+        h4 {
+            font-family: Poppins;
+            font-size: 27px;
+            font-weight: 400;
+            line-height: 36px;
+            color: #fff;
+        }
+
+        span {
+            font-family: Poppins;
+            font-size: 13px;
+            font-weight: 400;
+            line-height: 36px;
+            color: #fff;
+        }
+    }
+
+    .social-media {
+        min-height: 97px;
+        display: flex;
+        justify-content: start;
+        align-items: end;
+        flex-direction: column;
+
+        h4 {
+            font-family: Poppins;
+            font-size: 27px;
+            font-weight: 400;
+            line-height: 36px;
+            color: #fff;
+        }
+
+        .social-media-icon {
+            display: flex;
+            gap: 1.3rem;
+
+            i {
+                color: #003252;
+                background-color: #fff;
+                width: 55px;
+                height: 55px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 50%;
+                cursor: pointer;
+                font-size: 25px;
+                transition: 0.5s ease;
+
+                &:hover {
+                    border: 1px solid #003252;
+                }
+            }
+        }
+
+    }
+
+    .ieesLogo {
+        width: 100%;
+        display: flex;
+        align-items: center;
+
+        img {
+            width: 70.38px;
+            height: 70.25px;
+        }
+
+        .energy-logo {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            width: 35%;
+
+            h4 {
+                font-family: Roboto;
+                font-size: 50px;
+                font-weight: 400;
+                line-height: 45px;
+                color: #fff;
+                margin: 0px;
+            }
+
+            p {
+                font-family: Roboto;
+                font-size: 8px;
+                font-weight: 400;
+                line-height: 10px;
+                color: #fff;
+                margin-bottom: 0px;
+            }
+        }
+    }
+
+    .email-adress {
+        min-height: 100px;
+        display: flex;
+        align-items: centeer;
+        justify-content: end;
+        align-items: center;
+
+        .emailInput {
+            background-color: #fff;
+            padding: 10px;
+            border-radius: 10px;
+            width: 45%;
+            height: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            input {
+                border: none;
+                background-color: transparent;
+                width: 80%;
+                outline: 0;
+                font-family: Roboto;
+                font-weight: 500;
+                font-size: 15px;
+
+            }
+
+
+            i.fa-solid {
+                transition: transform 0.3s ease;
+                margin-left: 1px;
+                cursor: pointer;
+            }
+
+            &:hover i.fa-solid {
+                transform: translateX(5px);
+            }
+
+        }
+    }
+
+    .company {
+        min-height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+
+        .line {
+            width: 60%;
+            height: 3px;
+            border-radius: 25px;
+            margin-bottom: 1rem;
+            background-color: #fff;
+        }
+        p{
+            color: #fff;
+            width: 75%;
+            font-size: 18px;
+        }
+        h4{
+            font-weight: 700;
+            color: #fff;
+            font-family: Poppins;
+            font-size: 15px;
+            min-height: 50px;
+            align-items: end;
+            display: flex;
+        }
+    }
+}
